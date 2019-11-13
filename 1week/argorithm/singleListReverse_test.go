@@ -13,6 +13,7 @@ func TestReverseNode(t *testing.T) {
 	reverseValue := printNode(headReverse)
 
 	assert.Equal(t, "543210", reverseValue)
+	assert.NotEqual(t, "543422", reverseValue)
 
 }
 
